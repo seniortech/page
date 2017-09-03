@@ -114,10 +114,11 @@ section > div {
   z-index: 1;
   float: right;
   width: 40%;
+  overflow: visible;
   display: inline-block; }
   .hero-img .img {
-    padding-bottom: 100%;
-    width: 100%;
+    padding-bottom: 140%;
+    width: 140%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain; }
@@ -127,6 +128,9 @@ section > div {
     width: 100%; }
   .hero-img {
     width: 100%; }
+    .hero-img .img {
+      padding-bottom: 100%;
+      width: 100%; }
   .hero-section .logo {
     margin-bottom: 20px; } }
 
