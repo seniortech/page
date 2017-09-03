@@ -189,6 +189,7 @@ form {
         outline: 0; }
     form .button-group button {
       font-family: RadomirTinkov;
+      font-weight: 300;
       position: absolute;
       top: 0;
       left: 483px;
