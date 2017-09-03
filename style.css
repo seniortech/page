@@ -173,6 +173,7 @@ form {
     height: 50px;
     position: relative; }
     form .button-group input {
+      font-family: RadomirTinkov;
       box-sizing: border-box;
       width: 480px;
       height: 50px;
@@ -187,9 +188,10 @@ form {
       form .button-group input:focus {
         outline: 0; }
     form .button-group button {
+      font-family: RadomirTinkov;
       position: absolute;
       top: 0;
-      left: 480px;
+      left: 483px;
       color: #fff;
       cursor: pointer;
       height: 50px;
