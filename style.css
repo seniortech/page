@@ -252,7 +252,7 @@ footer {
       box-shadow: none;
       width: 100%;
       margin-left: 0; }
-  .intro::after {
+  .intro::after, .intro::before {
     display: none; }
   .hero-section .logo {
     margin-bottom: 20px; } }
