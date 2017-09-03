@@ -167,7 +167,8 @@ form {
   form h2 {
     color: #000;
     font-size: 18px;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 25px; }
   form .button-group {
     height: 50px; }
     form .button-group input {
@@ -234,14 +235,22 @@ footer {
     .hero-img .img {
       padding-bottom: 100%;
       width: 100%; }
-  form .button-group input {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin-bottom: 10px; }
-  form .button-group button {
-    width: 100%;
-    margin-left: 0; }
+  form {
+    text-align: center; }
+  form .button-group {
+    text-align: center; }
+    form .button-group input {
+      box-shadow: none;
+      width: 100%;
+      padding: 0 20px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      margin-bottom: 14px;
+      border: 1px #ccc solid; }
+    form .button-group button {
+      box-shadow: none;
+      width: 100%;
+      margin-left: 0; }
   .intro::after {
     display: none; }
   .hero-section .logo {
