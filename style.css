@@ -246,7 +246,8 @@ footer {
       margin-top: 5px;
       box-sizing: border-box;
       margin-bottom: 14px;
-      border: 1px #ccc solid; }
+      border: 1px #ccc solid;
+      text-align: center; }
     form .button-group button {
       box-shadow: none;
       width: 100%;
