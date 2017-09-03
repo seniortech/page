@@ -170,9 +170,11 @@ form {
     font-weight: 300;
     line-height: 25px; }
   form .button-group {
-    height: 50px; }
+    height: 50px;
+    position: relative; }
     form .button-group input {
-      width: 250px;
+      box-sizing: border-box;
+      width: 480px;
       height: 50px;
       -webkit-box-shadow: 0px 2px 5px 0px #807e80;
       -moz-box-shadow: 0px 2px 5px 0px #807e80;
@@ -180,11 +182,14 @@ form {
       border-radius: 40px;
       padding: 0 20px;
       border: 0;
-      font-size: 16px;
+      font-size: 15px;
       padding-right: 120px; }
       form .button-group input:focus {
         outline: 0; }
     form .button-group button {
+      position: absolute;
+      top: 0;
+      left: 480px;
       color: #fff;
       cursor: pointer;
       height: 50px;
@@ -250,6 +255,8 @@ footer {
       text-align: center; }
     form .button-group button {
       box-shadow: none;
+      position: relative;
+      left: 0;
       width: 100%;
       margin-left: 0; }
   .intro::after, .intro::before {
