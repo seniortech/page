@@ -69,7 +69,7 @@ section >div {
     }
 }
 .hero-content {
-    width: 60%;
+    width: 50%;
     display: inline-block;
     text-align: left;
     z-index: 1;
@@ -88,10 +88,10 @@ section >div {
     position: relative;
     z-index: 1;
     float: right;
-    width: 40%;
+    width: 50%;
     display: inline-block;
     .img {
-        height: 400px;
+        padding-bottom: 100%;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
